@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.Header{
+    display: flex;
+    position:fixed;
+    top:0px;
+    max-height: 105px;
+   
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-bottom: 0.5px solid white;
+  &_logo{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+&_menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    &__links{
+        text-decoration: none;
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+    }
+    &__links:hover{
+        color: rgba(255, 255, 255, 0.769);
+        
+    }
+}
+&_button{
+    display: flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    margin-right: 75px;
+    background-color: #a78be300;
+    color: #FFF;
+}
+&_button:hover{
+    background-color: #9f7de822;
+}
+&_headerBg{
+  background-color: #6c33e8;
+}
+}
+
+
+
+.Background{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+    &_first{
+      width: 50%;
+    }
+    &_second{
+      width: 50%;
+    }
+    &_third{
+      width: 50%;
+      
+    }
+}
+
+.Main{
+  // margin-top: 200px;
+  &_information{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    font-family: Open Sans;
+    color: white;
+    height: 700px;
+    flex-direction: column;
+    width: 505px;
+
+
+    &__maintitle1{
+      padding-left: 50px;
+      font-weight: 600;
+      font-size: 64px;
+      line-height: 80px;
+      font-style: normal;
+      width: 450px;
+    }
+    &__mainAbout{
+      width: 500px;
+      padding-left: 50px;
+      padding-top: 10px;
+    }
+
+      
+  //   &_adv2{
+  //     &__maintitle2{
+  
+  //     }
+  //     &__mainAbout{
+        
+  //     }
+  //   }
+  //   &_adv3{
+  //     &__maintitle3{
+  
+  //     }
+  //     &__mainAbout{
+        
+  //     }
+  //   }
+  // }
+  
+}
+}
+
+.Room{
+  &_Titels{
+    margin-top: 125px;
+    border-top: solid 1px #535353;
+      &__mainTitel{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Open Sans;
+      font-size: 38px;
+      color: #535353;
+      font-weight: 100;
+      margin-top: 30px;
+  }
+    &__mainTitel2{
+      display: flex;
+      justify-content: center;
+      font-family: Open Sans;
+      font-size: 20px;
+      color: #535353;
+      margin-top: 10px;
+      margin-left: 425px;
+      width: 400px;
+      padding-bottom: 20px;
+    }
+    border-bottom: solid 1px #535353;
+  }
+  &_titelAboutRooms{
+    display: flex;
+    justify-content: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    color: #535353;
+    margin-top: 15px;
+}
+
+  &_bookingButtons{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    &__button{
+      margin-right: 5px;
+      margin-bottom: 5px;
+      padding: 5px;
+      margin-top: 10px;
+        height: 40px;
+        background-color: #b6b6b6;
+        color: white;
+        padding-left:39px;
+        padding-right:39px;
+        border: none;
+        border-radius:100px;
+        text-decoration: none;
+        font-family: Open Sans;
+        font-weight: 500;
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+  }
+  &__button:hover{
+    background-color: #ababab;
+  }  
+  &_Filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #535353;
+    
+    &__1-seater{
+      display: flex;
+      justify-content: center;
+    }
+    &__2-seater{
+      display: flex;
+      justify-content: center;
+    }
+    &__3-seater{
+      display: flex;
+      justify-content: center;
+    }
+    &__4-seater{
+      display: flex;
+      justify-content: center;
+    }
+  }
+  &_content{
+    display: flex;
+    gap:32px;
+  }
+}
+}
+
+.Product{
+  background-color: rgba(135, 190, 255, 0.4);
+  border-radius: 12px;
+  width:300px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 16px ;
+  padding-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+margin-top: 200px;
+  &_name{
+    display: flex;
+    flex-direction: column;
+    &__Titel{
+      display: flex;
+      justify-content: center;
+      margin-top: 15px;
+    }
+    // &__about{
+    //   display: flex;
+    //   justify-content: center;
+    //   padding-bottom: 20px;
+    // }
+  }
+  &_Images{
+  &__pic{
+    width: 297px;
+    height: 150px;
+  }
+  }
+  &_information{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  // &_price{
+  //   &__correct{}
+  // }
+  &_button{
+    margin-top: 30px;
+        width:129px;
+        height: 40px;
+        background-color: rgb(74, 124, 224);
+        color: white;
+        padding-left:20px;
+        padding-right:39px;
+        border: none;
+        border-radius:10px;
+  }
+}
+
+.Footer{
+  display: flex;
+    background-color: #efefef;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    border-bottom: 0.5px solid white;
+    margin-top: 1000px;
+  &_logo{
+    display: flex;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  &_menu{
+    display: flex;
+  }
+  &_content{
+    display: flex;
+    gap: 30px;
+    &__menu{
+      display: flex;
+      flex-direction: column;
+    }
+    &__menu2{
+      display: flex;
+      flex-direction: column;
+    }
+    // &__contact{
+    //   &___first{}
+    //   &___second{}
+    // }
+    // &__newsSubcribe{
+
+    // }
+    &__icon{
+      display: flex;
+      margin-top: 25px;
+      gap: 20px;
+    }
+    &__icons{
+      display: flex;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  &_titel{
+    text-decoration: none;
+        font-family: Open Sans;
+        font-weight: 600;
+        font-size: 17px;
+        color: rgb(10, 10, 10);
+        margin-top: 20px;
+        margin-bottom: 10px;
+    &__text{
+      margin-top: 10px;
+      text-decoration: none;
+        font-family: Open Sans;
+        font-weight: 400;
+        font-size: 15px;
+        color: rgb(25, 25, 25);
+    }
+    &__text:hover{
+      color: rgb(71, 71, 71);
+    }
+  }
+  &_text{
+    &__about{
+      text-decoration: none;
+      font-family: Open Sans;
+      font-weight: 400;
+      font-size: 15px;
+      margin-top: 7px;
+      margin-bottom: 7px;
+      text-decoration: none;
+        color: rgb(25, 25, 25);
+    }
+    &__phone{
+      font-family: Open Sans;
+      font-weight: 400;
+      font-size: 15px;
+      margin-top: 7px;
+      margin-bottom: 7px;
+      text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+  }
+  &_form{
+    &__text{
+      text-decoration: none;
+      font-family: Open Sans;
+      font-weight: 600;
+      font-size: 17px;
+      color: rgb(10, 10, 10);
+      margin-top: 20px;
+    }
+    &__input{
+      margin-top: 15px;
+      padding: 8px 24px;
+      border-radius: 5px;
+    }
+    &__button{
+      display: flex;
+      margin-top: 10px;
+    padding: 8px 24px;
+    align-items: flex-start;
+    border-radius: 6px;
+    border: 1px solid #FFF;
+    margin-right: 75px;
+    background-color: #a78be3e7;
+    color: #FFF;
+    font-size: 15px;
+    }
+    &__button:hover{
+    background-color: #a78be3c1;
+    }
+  }
+}

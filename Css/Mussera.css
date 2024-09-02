@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.Header {
+  display: flex;
+  position: fixed;
+  top: 0px;
+  max-height: 105px;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-bottom: 0.5px solid white;
+}
+.Header_logo {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.Header_menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.Header_menu__links {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+}
+.Header_menu__links:hover {
+  color: rgba(255, 255, 255, 0.769);
+}
+.Header_button {
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-start;
+  border-radius: 6px;
+  border: 1px solid #FFF;
+  margin-right: 75px;
+  background-color: rgba(167, 139, 227, 0);
+  color: #FFF;
+}
+.Header_button:hover {
+  background-color: rgba(159, 125, 232, 0.1333333333);
+}
+.Header_headerBg {
+  background-color: #6c33e8;
+}
+
+.Background {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Background_first {
+  width: 50%;
+}
+.Background_second {
+  width: 50%;
+}
+.Background_third {
+  width: 50%;
+}
+
+.Main_information {
+  display: flex;
+  justify-content: center;
+  font-family: Open Sans;
+  color: white;
+  height: 700px;
+  flex-direction: column;
+  width: 505px;
+}
+.Main_information__maintitle1 {
+  padding-left: 50px;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 80px;
+  font-style: normal;
+  width: 450px;
+}
+.Main_information__mainAbout {
+  width: 500px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.Room_Titels {
+  margin-top: 125px;
+  border-top: solid 1px #535353;
+  border-bottom: solid 1px #535353;
+}
+.Room_Titels__mainTitel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Open Sans;
+  font-size: 38px;
+  color: #535353;
+  font-weight: 100;
+  margin-top: 30px;
+}
+.Room_Titels__mainTitel2 {
+  display: flex;
+  justify-content: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  color: #535353;
+  margin-top: 10px;
+  margin-left: 425px;
+  width: 400px;
+  padding-bottom: 20px;
+}
+.Room_titelAboutRooms {
+  display: flex;
+  justify-content: center;
+  font-family: Open Sans;
+  font-size: 15px;
+  color: #535353;
+  margin-top: 15px;
+}
+.Room_bookingButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center;
+}
+.Room_bookingButtons__button {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  height: 40px;
+  background-color: #b6b6b6;
+  color: white;
+  padding-left: 39px;
+  padding-right: 39px;
+  border: none;
+  border-radius: 100px;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-weight: 500;
+  font-size: 17px;
+  color: rgb(255, 255, 255);
+}
+.Room_bookingButtons__button:hover {
+  background-color: #ababab;
+}
+.Room_bookingButtons_Filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #535353;
+}
+.Room_bookingButtons_Filter__1-seater {
+  display: flex;
+  justify-content: center;
+}
+.Room_bookingButtons_Filter__2-seater {
+  display: flex;
+  justify-content: center;
+}
+.Room_bookingButtons_Filter__3-seater {
+  display: flex;
+  justify-content: center;
+}
+.Room_bookingButtons_Filter__4-seater {
+  display: flex;
+  justify-content: center;
+}
+.Room_bookingButtons_content {
+  display: flex;
+  gap: 32px;
+}
+
+.Product {
+  background-color: rgba(135, 190, 255, 0.4);
+  border-radius: 12px;
+  width: 300px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 16px;
+  padding-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+.Product_name {
+  display: flex;
+  flex-direction: column;
+}
+.Product_name__Titel {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.Product_Images__pic {
+  width: 297px;
+  height: 150px;
+}
+.Product_information {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.Product_button {
+  margin-top: 30px;
+  width: 129px;
+  height: 40px;
+  background-color: rgb(74, 124, 224);
+  color: white;
+  padding-left: 20px;
+  padding-right: 39px;
+  border: none;
+  border-radius: 10px;
+}
+
+.Footer {
+  display: flex;
+  background-color: #efefef;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  border-bottom: 0.5px solid white;
+  margin-top: 1000px;
+}
+.Footer_logo {
+  display: flex;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+.Footer_menu {
+  display: flex;
+}
+.Footer_content {
+  display: flex;
+  gap: 30px;
+}
+.Footer_content__menu {
+  display: flex;
+  flex-direction: column;
+}
+.Footer_content__menu2 {
+  display: flex;
+  flex-direction: column;
+}
+.Footer_content__icon {
+  display: flex;
+  margin-top: 25px;
+  gap: 20px;
+}
+.Footer_content__icons {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+.Footer_titel {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 17px;
+  color: rgb(10, 10, 10);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.Footer_titel__text {
+  margin-top: 10px;
+  text-decoration: none;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgb(25, 25, 25);
+}
+.Footer_titel__text:hover {
+  color: rgb(71, 71, 71);
+}
+.Footer_text__about {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  text-decoration: none;
+  color: rgb(25, 25, 25);
+}
+.Footer_text__phone {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.Footer_form__text {
+  text-decoration: none;
+  font-family: Open Sans;
+  font-weight: 600;
+  font-size: 17px;
+  color: rgb(10, 10, 10);
+  margin-top: 20px;
+}
+.Footer_form__input {
+  margin-top: 15px;
+  padding: 8px 24px;
+  border-radius: 5px;
+}
+.Footer_form__button {
+  display: flex;
+  margin-top: 10px;
+  padding: 8px 24px;
+  align-items: flex-start;
+  border-radius: 6px;
+  border: 1px solid #FFF;
+  margin-right: 75px;
+  background-color: rgba(167, 139, 227, 0.9058823529);
+  color: #FFF;
+  font-size: 15px;
+}
+.Footer_form__button:hover {
+  background-color: rgba(167, 139, 227, 0.7568627451);
+}/*# sourceMappingURL=Mussera.css.map */
